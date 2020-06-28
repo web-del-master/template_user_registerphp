@@ -1,0 +1,41 @@
+body{
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_form{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    border-radius: 3px;
+    border:1px solid #57606f;    
+}
+.main_form_login{
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main_form_login input{
+    display: block;
+    margin-bottom: 10px;
+}
+.main_input{
+    width:100%;
+}
+
+.main_form_btn{
+    margin-top: 10px;
+}
+
+.msg{
+    width:100%;
+    text-align: center;
+    margin-top: 5px;
+}
